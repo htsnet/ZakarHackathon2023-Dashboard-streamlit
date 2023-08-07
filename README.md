@@ -8,9 +8,18 @@ A fictional island nation named Zakar is suffering from wildfires. Let's help th
 
 See this project on https://github.com/htsnet/ZakarHackathon2023-Dashboard-streamlit 
 
------- Instructions ------
+**------ Instructions ------**  
 pip install virtualenv  
 python -m venv Ambiente_Virtual  
 Ambiente_Virtual\Scripts\activate.bat  
 pip install <packages>  
 streamlit run app.py   
+
+**------ Some screens ------**  
+![Alt text](dashboard.png)
+
+![Alt text](dashboard_2.png)
+
+![Alt text](dashboard_3.png)
+
+![Alt text](dashboard_4.png)
