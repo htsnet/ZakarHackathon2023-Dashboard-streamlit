@@ -53,6 +53,12 @@ def main():
                 This map represents all geographic coordinates of the island. 
                 """)
         st.image('wildfires_map.png', clamp=True)
+        
+        st.write("""
+                During the wildfires, see wind direction.\n
+                The islando doen´t have a commom wind direction.
+                """)
+        st.image('wind_direction.png', clamp=True)
                     
 
     with tab2:    
