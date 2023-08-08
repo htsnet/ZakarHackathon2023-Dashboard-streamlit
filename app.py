@@ -55,10 +55,14 @@ def main():
         st.image('wildfires_map.png', clamp=True)
         
         st.write("""
-                During the wildfires, see wind direction.\n
-                The islando doen´t have a commom wind direction.
+                See wind direction occurred during the wildfires.\n
+                The island doesn´t have a standard wind direction during the wildfire season.
                 """)
-        st.image('wind_direction.png', clamp=True)
+        st.image('wind_directions.png', clamp=True)
+        st.write("""
+                This information was calculated according to the temperature of neighborhood coordinates.\n
+                There aren´t sensors of wind to confirm this information.
+                """)
                     
 
     with tab2:    
